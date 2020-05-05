@@ -44,3 +44,51 @@ html,body{
     font-weight: bold;
     margin-left: 25px;
 }
+
+/* Landing CSS */
+
+.landing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100vw 0 10vw;
+    height: 100vh;
+}
+
+.landingImage{
+    margin: 0 150px;
+}
+
+.landingText h1{
+    font-size: 3vw;
+    margin: 0 !important;
+
+}
+
+.landingText h3{
+    margin: 6px !important;
+    font-size: 20px;
+    opacity: 0.3;
+    line-height: 30px;
+}
+
+.landingText .btn{
+    width: 120px;
+    margin-top: 30px;
+    font-size: 1.2vw;
+    padding: 14px 20px 14px 20px;
+    background-color: #e0501b;
+    color: #ffffff;
+    border-radius: 45px;
+    text-align: center;
+}
+
+.landingText .btn a{
+    font-size: 1.2vw;
+    color: #ffffff;
+}
+
+.landingImage img{
+    width: 32vw;
+}
