@@ -34,3 +34,13 @@ html,body{
     font-weight: 600;
     color: #000000;
 }
+
+.nav .links .mainlink{
+    color: #e0501b;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
