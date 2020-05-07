@@ -185,9 +185,45 @@ li span{
     right: -50px;
 }
 
+.infoCards .two .cardtwoImg{
+    width: 158px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.infoCards .three .cardthreeImg{
+    width: 200px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
 .cardbgone{
     height: 150px;
-    background-color: #000000;
+    background-color: #ffce63;
+}
+
+.cardbgtwo{
+    height: 150px;
+    background-color: #a1cdff;
+}
+
+.cardbgthree{
+    height: 150px;
+    background-color: #ff6b6b;
+}
+
+.cardoneImg{
+    margin: 1rem 7.5rem;
+}
+
+.cardtwoImg{
+    margin: 1rem 8.5rem;
+}
+
+.cardthreeImg{
+    margin: 0 7.5rem;
 }
 
 .cardContent{
@@ -214,6 +250,11 @@ li span{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+    background-color: #2f8be0;
 }
 
 .cardContent .cardBtn .cardIcon{
@@ -222,3 +263,57 @@ li span{
     left: 0px;
     width: 16px;
 }
+
+/* Banner */
+
+.banner{
+    height: 200px;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerText h1{
+    /*font-size: 3vw;*/
+    color: #000000;
+    font-weight: 600;
+}
+
+.bannerText img{
+    width: 10vw;
+    margin-right: 20px;
+}
+
+.android{
+   display: flex; 
+   margin: 0 -9px;
+}
+
+.bannerImg img{
+    width: 20vw;
+}
+
+/*Footer*/
+
+.footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footerlinks a{
+    margin: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.footerlinks .mainlink{
+    color: #e0501b;
+}
+
