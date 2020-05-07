@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GA Springs Healthcare</title>
     <link rel="stylesheet" href="styles.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper">
@@ -24,24 +24,24 @@
     
 
         <div class="landing">
-            <div class="landingText">
+            <div class="landingText" data-aos="fade-up" data-aos-duration="1000">
                 <h1 style="font-size: 4vw; width: 420px;">Stay In<span style="color: #e0501b; font-size: 4vw;"> Stay Safe</span></h1>
                 <h3>Lets all work together to put an end to this pandemic. Help prevent the spread.</h3>
                 <div class="btn">
                     <a href="#">Learn More</a>
                 </div>
             </div>
-            <div class="landingImage">
+            <div class="landingImage" data-aos="fade-down" data-aos-duration="2000">
                 <img src="/img/doctor.png" alt="doctor">
             </div>
         </div>
 
-        <div class="about">
+        <div class="about" data-aos="fade-up" data-aos-duration="1000">
             <div class="aboutText">
                 <h1>Why is it important that <br> <span style="color:#2f8be0; font-size: 3vw;">You Stay Home</span></h1>
                 <img src="/img/doctor-woman.png" alt="">
             </div>
-            <div class="aboutList">
+            <div class="aboutList" data-aos="fade-left" data-aos-duration="1000">
                 <ol>
                     <li> 
                         <span>01</span> 
@@ -69,12 +69,12 @@
         </div>
 
         <div class="infoSection">
-            <div class="infoHeader">
+            <div class="infoHeader" data-aos="fade-up" data-aos-duration="1000">
                 <h1>Things you could do during the <br> <span style="color: #e0501b">Quarantine.</span> </h1>
             </div>
             <div class="infoCards">
-                <div class="card one">
-                    <img src="/img/movie.png" class="cardoneImg" alt="">
+                <div class="card one" data-aos="fade-up" data-aos-duration="1000">
+                    <img src="/img/movie.png" class="cardoneImg" alt="" data-aos="fade-up" data-aos-duration="1100">
                     <div class="cardbgone"></div>
                     <div class="cardContent">
                         <h2>Binge Watch</h2>
@@ -86,8 +86,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="card two">
-                    <img src="/img/learn.png" class="cardtwoImg" alt="">
+                <div class="card two" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="/img/learn.png" class="cardtwoImg" alt="" data-aos="fade-up" data-aos-duration="1200">
                     <div class="cardbgtwo"></div>
                     <div class="cardContent">
                         <h2>Learn a New Skill</h2>
@@ -99,8 +99,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="card three">
-                    <img src="/img/movie.png" class="cardthreeImg" alt="">
+                <div class="card three" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="/img/movie.png" class="cardthreeImg" alt="" data-aos="fade-up" data-aos-duration="1300">
                     <div class="cardbgthree"></div>
                     <div class="cardContent">
                         <h2>Video Call</h2>
@@ -117,14 +117,14 @@
     </div>  
     
     <div class="banner">
-        <div class="bannerText">
+        <div class="bannerText" data-aos="fade-right" data-aos-duration="1000">
             <h1>Download the GA Springs Healthcare App Today. <br> <span style="font-size: 1.6vw; font-weight:normal" class="bannerInnerText">
             Stay Updated and get all your medical needs taken care of!
         </span></h1>
         <a href="#"> <img src="/img/apple.png" class="apple" alt=""  style="height: 35px; width: 120px"></a> 
         <a href="#"> <img src="/img/android.png" class="android" alt="" style="height: 51px; width: 140px;"></a>
         </div>
-        <div class="bannerImg">
+        <div class="bannerImg" data-aos="fade-up" data-aos-duration="1000">
             <img src="/img/mbapp.png" alt="">
         </div>
     </div>
@@ -138,6 +138,10 @@
             <a href="#">Contact</a>
         </div>
     </div>
-</body>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
 </html>
