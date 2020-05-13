@@ -319,6 +319,43 @@ li span{
 
 /* Responsive */
 
+@media only screen and (max-width: 320px){
+    .landing{
+        flex-direction: column-reverse;
+        height: 750px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 11rem;
+    }
+
+    .landingText h1{
+        font-size: 6vw;
+        margin: 0;
+    }
+
+    .landingText h3{
+        font-size: 12px;
+        max-width: 70%;
+    }
+
+    .landingText .btn{
+        margin: 0 auto;
+        margin-right: 8.7rem;
+    }
+
+    .landingText .btn a{
+        font-size: 2vw;
+        max-width: 50%;
+    }
+
+    .landingImage img{
+        width: 30vw;
+        margin-right: 1rem;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 600px){
 
     .nav{
@@ -349,20 +386,21 @@ li span{
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-left: 13rem;
+        margin-left: 11rem;
     }
 
     .landingText h1{
         font-size: 6vw;
-        margin: 0;
     }
 
     .landingText h3{
-        font-size: 16px;
+        font-size: 12px;
+        max-width: 90%;
     }
 
     .landingText .btn{
         margin: 0 auto;
+        margin-right: 8.7rem;
     }
 
     .landingText .btn a{
